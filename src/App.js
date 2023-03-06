@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import clarifaiApiKey from './config';
-import Clarifai from 'clarifai';
+// import clarifaiApiKey from './config';
+// import Clarifai from 'clarifai';
 import Navigation from './components/Navigation/Navigation';
 import Logo from './components/Logo/Logo';
 import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm';
