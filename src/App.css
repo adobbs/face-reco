@@ -1,16 +1,24 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.faceCheck {
+  width: 500px;
+  height: auto;
 }
 
 .App-header {
